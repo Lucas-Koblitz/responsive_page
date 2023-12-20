@@ -1,0 +1,19 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+code {
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+article {
+    padding-bottom: 20px;
+}

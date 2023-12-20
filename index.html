@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#basic_structure">Basic Structure</a></li>
+            <li><a href="#simple_statements">Simple Statements</a></li>
+            <li><a href="#hypertext_reference">Hypertext Reference</a></li>
+            <li><a href="#reference">References</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>HTML is the fundamental language to create the structure and content of web pages. It creates the structure necessary to use other tecnologies, such as CSS and JavaScript, here are some other motives:</p>
+                <ul>
+                    <li>Whether you want to create a blog, personal website, or contribute to online platforms, understanding HTML is essential.</li>
+                    <li>Many jobs related to web development, digital marketing, and content creation, require at least a basic knowledge of HTML. It's a valuable skill that can enhance your employability.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="basic_structure">
+            <header>Basic Structure</header>
+            <article>
+                <p>All html files start with the DOCTYPE Statement:</p>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                </code>
+                <p>They should also contain a &lt;html&gt tag that contains all the code. And also, for readability pourposes, it's better practice if the meta-content, inside &lt;head&gt and the content is displayed inside &lt;body&gt</p>
+                <pre class="wp-block-code"><code>
+&lt;!DOCTYPE html> 
+&lt;html>
+  &lt;head> 
+
+  &lt;/head> 
+  &lt;body> 
+
+  &lt;/body> 
+&lt;/html> </code></pre>
+            </article>
+        </section>
+        <section class="main-section" id="simple_statements">
+            <header>Simple Statements</header>
+            <article>
+                <p>You can create simple statements using the following tags, they differentiate themselves in size.</p>
+                <ul>
+                    <li><h1 style="font-size: 34px;">Heading 1 (h1)</h1></li>
+                    <li><h2>Heading 2 (h2)</h2></li>
+                    <li><h3>Heading 3 (h3)</h3></li>
+                    <li><h4>Heading 4 (h4)</h4></li>
+                    <li><p>Paragraph (p)</p></li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section"id="hypertext_reference">
+            <header>Hypertext Reference</header>
+            <article>
+                <p>If you want to make your website more interactive, you can start using hyperlinks, to reference to other sites, or to direct you to other parts of the site, like in the example below:</p>
+                <code>
+                    &lt;a href="(link to site)">Text to link&lt;/a>
+                </code>
+                <br>
+                <p>Or if you want to reference at the same page, do the following</p>
+                <code>
+                    &lt;a href="#(id of element)">Text to link&lt;/a>
+                </code><br>
+            </article>
+        </section>
+        <section class="main-section"id="reference">
+            <header>References</header>
+            <article>
+                <p>For references</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
