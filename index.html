@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#basic_structure">Basic Structure</a></li>
-            <li><a href="#simple_statements">Simple Statements</a></li>
-            <li><a href="#hypertext_reference">Hypertext Reference</a></li>
-            <li><a href="#reference">References</a></li>
-        </ul>
-    </nav>
+        <nav id="navbar">
+            <header>HTML documentation</header>
+            <ul>
+                <li class="no-list"><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li class="no-list"><a href="#Basic_Structure" class="nav-link">Basic Structure</a></li>
+                <li class="no-list"><a href="#Simple_Statements" class="nav-link">Simple Statements</a></li>
+                <li class="no-list"><a href="#Hypertext_Reference" class="nav-link">Hypertext Reference</a></li>
+                <li class="no-list"><a href="#References" class="nav-link">References</a></li>
+            </ul>
+        </nav>
     <main id="main-doc">
-        <section class="main-section" id="introduction">
+        <section class="main-section" id="Introduction">
             <header>Introduction</header>
             <article>
                 <p>HTML is the fundamental language to create the structure and content of web pages. It creates the structure necessary to use other tecnologies, such as CSS and JavaScript, here are some other motives:</p>
@@ -25,9 +26,10 @@
                     <li>Whether you want to create a blog, personal website, or contribute to online platforms, understanding HTML is essential.</li>
                     <li>Many jobs related to web development, digital marketing, and content creation, require at least a basic knowledge of HTML. It's a valuable skill that can enhance your employability.</li>
                 </ul>
+                <p>Learning HTML is the first step towards building a strong foundation in web development.</p>
             </article>
         </section>
-        <section class="main-section" id="basic_structure">
+        <section class="main-section" id="Basic_Structure">
             <header>Basic Structure</header>
             <article>
                 <p>All html files start with the DOCTYPE Statement:</p>
@@ -45,22 +47,24 @@
 
   &lt;/body> 
 &lt;/html> </code></pre>
+<p>Understanding the basic structure of an HTML document is crucial for creating well-organized and readable web pages.</p>     
             </article>
         </section>
-        <section class="main-section" id="simple_statements">
+        <section class="main-section" id="Simple_Statements">
             <header>Simple Statements</header>
             <article>
                 <p>You can create simple statements using the following tags, they differentiate themselves in size.</p>
                 <ul>
-                    <li><h1 style="font-size: 34px;">Heading 1 (h1)</h1></li>
-                    <li><h2>Heading 2 (h2)</h2></li>
-                    <li><h3>Heading 3 (h3)</h3></li>
-                    <li><h4>Heading 4 (h4)</h4></li>
-                    <li><p>Paragraph (p)</p></li>
+                    <li class="no-list"><h1 style="font-size: 34px;">Heading 1 <code>&lt;h1></h1></code></li>
+                    <li class="no-list"><h2>Heading 2 <code>&lt;h2></h2></code></li>
+                    <li class="no-list"><h3>Heading 3 <code>&lt;h3></h3></code></li>
+                    <li class="no-list"><h4>Heading 4 <code>&lt;h4></h4></code></li>
+                    <li class="no-list"><p>Paragraph <code>&lt;p></p></code></li>
                 </ul>
+                <p>Choosing the appropriate HTML tags for your content helps in creating a well-formatted and visually appealing webpage.</p>
             </article>
         </section>
-        <section class="main-section"id="hypertext_reference">
+        <section class="main-section"id="Hypertext_Reference">
             <header>Hypertext Reference</header>
             <article>
                 <p>If you want to make your website more interactive, you can start using hyperlinks, to reference to other sites, or to direct you to other parts of the site, like in the example below:</p>
@@ -71,13 +75,16 @@
                 <p>Or if you want to reference at the same page, do the following</p>
                 <code>
                     &lt;a href="#(id of element)">Text to link&lt;/a>
+                    
                 </code><br>
+                <p>Hyperlinks provide navigation and connectivity, enhancing the user experience on your website.</p>
             </article>
         </section>
-        <section class="main-section"id="reference">
+        <section class="main-section"id="References">
             <header>References</header>
             <article>
-                <p>For references</p>
+                <p>For references, I used <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN web docs</a></p>
+                <p>When you're learning HTML, reliable references like the MDN web docs can be valuable resources to deepen your understanding.</p>
             </article>
         </section>
     </main>
